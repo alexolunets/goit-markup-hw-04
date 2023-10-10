@@ -110,6 +110,9 @@ a:focus {
   gap: 40px;
 }
 
+
+
+
 .nav-link {
   color: #2e2f42;
   font-size: 16px;
@@ -118,7 +121,14 @@ a:focus {
   letter-spacing: 0.32px;
   padding: 24px 0;
   display: block;
+  
+  
 }
+
+
+
+
+
 .address-list {
   display: flex;
   align-items: center;
@@ -140,6 +150,14 @@ a:focus {
 .section-title {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ .jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .title {
@@ -194,6 +212,18 @@ button:focus {
   margin-bottom: 8px;
 }
 
+.features-icons{
+  display: flex;
+  border-radius: 4px;
+border: 1px solid #8E8F99;
+background:#F4F4FD;
+width: 264px;
+height: 112px;
+margin-bottom: 8px;
+align-items: center;
+justify-content: center;
+}
+
 .features-text {
   color: #434455;
   font-size: 16px;
@@ -201,8 +231,8 @@ button:focus {
   letter-spacing: 0.02em;
 }
 
-.section-features {
-}
+
+
 
 .features-list {
   display: flex;
@@ -268,6 +298,38 @@ button:focus {
 .container-team {
   padding: 32px 0;
 }
+
+.team-icon  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+ 
+  
+  
+ }
+ .soc-icon{ color: #F4F4FD;}
+
+ .team-icon .icon{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:24px;
+  border-radius: 50%;
+  background-color: #4D5AE5;
+  fill:#F4F4FD;
+  
+ }
+ 
+
+ .team-item-icon .icon:hover, .team-item-icon .icon:focus
+{background-color: #31d0aa;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+
+
+ 
+
+  .
 /* #endteam */
 
 /* portfolio */
@@ -320,6 +382,9 @@ button:focus {
 /* #endportfolio */
 
 /* footer */
+.container-footer{display:flex;
+  align-items: baseline;
+}
 
 .footer {
   background-color: #2e2f42;
@@ -350,5 +415,50 @@ button:focus {
   letter-spacing: 0.02em;
   width: 264px;
 }
+.footer-list-icon{display: flex;
+  
+  
+}
+.footer-list-icon .footer-soc-icon{
+  background-color: #4D5AE5;
+}
 
+.footer-item-icon{width: 40px;
+  height: 40px;}
+
+  .soc-item-link{  display:block;
+    fill: #F4F4FD;
+     
+   
+    }
+
+
+  .footer-soc-icon{
+  
+
+  }
+  
+
+
+.footer-text-icon{color: #FFF;
+ font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+padding-bottom: 16px;
+}
+
+
+.footer-item-icon:hover, .footer-item-icon:focus
+{background-color: #31d0aa;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+
+
+
+
+
+  
+   
+
+ 
 /* endfooter */
